@@ -1,4 +1,10 @@
 #!/usr/bin/python
+#
+# Author: Andrew Steffen
+# 
+# TODO:  confirm GPIO settings with other devices to be connected
+# TODO: code comments and leanup
+
 # The wiring for the LCD is as follows:
 # 1 : GND
 # 2 : 5V
