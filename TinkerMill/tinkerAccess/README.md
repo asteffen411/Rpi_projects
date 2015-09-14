@@ -55,3 +55,22 @@ Started with code from https://github.com/TinkerMill/tinkerAccess
 
 July 23:
 1) Need to get changes committed to github.  
+
+July 24:
+1) More details on use case:
+1a) A user scans their badge, the timer starts and will expire in 30 min.
+If the user finishes before 30 minutes, they can push a button to 
+logoff.
+
+1b) A user scans their badge, the timer starts and will expire in 30 min.
+If another user comes by and scans their badge within this 30 min, 
+the next user is automatically granted access and holds the 'lock' 
+for the next 30 minutes.
+
+1c) A user scans their badge, the timer starts and will expire in 30 min.
+They use it for 20 minutes and at that point, know they will need 
+at least another 30 minutes.  They scan their badge again and the clock 
+resets back to 30 minutes.
+
+1d) A user scans their badge, the timer starts and will expire in 30 min.
+An unauthorized user comes by and scans their badge, 
