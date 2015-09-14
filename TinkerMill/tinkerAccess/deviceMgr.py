@@ -5,6 +5,14 @@
 #       Responsible for initializing tasks, starting threads,
 #       and managing event calls between modules within the device.
 #       
+#       Author: Andrew Steffen
+#       
+#       Initial code commit completed.
+#       TODO:  Verify if all the threads are needed
+#       TODO:  Add more description to code comments
+#       TODO:  check with Matt P's server code to see if 
+#       it interfaces correctly with his Flask setup.
+#       TODO:  cleanup code that is not used.
 ########################################################################
 
 import thread

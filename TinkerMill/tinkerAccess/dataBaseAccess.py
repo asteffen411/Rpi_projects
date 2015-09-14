@@ -1,8 +1,17 @@
 #!/usr/bin/python
-#
+#  Andrew Steffen
+#  Initial first pass attempt completed and working.
+#  TOOO:  Verify other server side data exchanges will work.
+#  TODO:  Add code comments and clean-up
 # dataBaseAccess.py
 
 import sys
+<<<<<<< HEAD
+=======
+import os
+
+
+>>>>>>> 94087b2eb572456c755c5a55326d3fc4035f43e2
 import ConfigParser
 import os
 import requests
@@ -27,6 +36,7 @@ def queryUserNameFromBadgeId(badgeId):
       print "Oppps! I could not get the url %s/device/%s/code/%s" % ( C_server, C_deviceid, usercode)
     return userData  
 
+<<<<<<< HEAD
 
 def queryUserAccessLevel(userName):
   c = ConfigParser.SafeConfigParser()
@@ -49,3 +59,5 @@ def queryUserAccessLevel(userName):
 
 
 
+=======
+>>>>>>> 94087b2eb572456c755c5a55326d3fc4035f43e2
